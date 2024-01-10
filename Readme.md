@@ -5,7 +5,7 @@
 let numbers = [1,3,5,6];
 let largestNum = Math.max(...numbers);
 console.log(largestNum)
-**using reduce**
+####using reduce
 let numbers = [1,3,5,6];
 let largestNum = numbers.reduce((a,b) => {
     return Math.max(a,b);
