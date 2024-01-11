@@ -18,3 +18,16 @@ numbers.sort((a,b) => {
 })
 let largestNum = numbers[0];
 console.log(largestNum);
+
+2. Ques: Find the sum of all elements?
+let array = [3, 6, 7, 9]; 
+
+function sumArray(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum;
+}
+
+console.log(sumArray(array));
