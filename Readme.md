@@ -9,7 +9,7 @@ console.log(largestNum)
 let numbers = [1,3,5,6];
 let largestNum = numbers.reduce((a,b) => {
     return Math.max(a,b);
-})
+});
 console.log(largestNum);
 //using sort
 let numbers = [1,3,5,6];
